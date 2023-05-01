@@ -2,26 +2,25 @@
 #include <string.h>
 #include "lists.h"
 /**
-* _strlen - string length finder
-* @str: string
-* Return: string length
-*/
+ * _strlen - string length finder
+ * @str: string
+ * Return: string length
+ */
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
 
-	for (i = 0); 
-		str[i]; 
-		i++;
+	for (i = 0; str[i]; i++)
+	;
 	return (i);
 }
 
 /**
-* add_node_end - adds a new node
-* @head: double pointer
-* @str: string
-* Return: pointer
-*/
+ * add_node_end - adds a new node
+ * @head: double pointer
+ * @str: string
+ * Return: pointer
+ */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *tmp;
