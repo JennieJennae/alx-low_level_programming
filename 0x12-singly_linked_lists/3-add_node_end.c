@@ -16,14 +16,14 @@ unsigned int _strlen(char *str)
 
 /**
 * add_node_end - adds a new node
-* @head: double pointer 
+* @head: double pointer
 * @str: string
 * Return: pointer
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *tmp;
-	
+
 	if (str == NULL)
 	return (NULL);
 	new = malloc(sizeof(list_t));
@@ -40,9 +40,11 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 	{
 		*head = new;
+
 		return (new);
 	}
 	tmp = *head;
+
 	while (tmp->next);
 	tmp = tmp->next;
 	tmp->next = new;
