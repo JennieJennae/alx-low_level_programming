@@ -2,7 +2,7 @@
 #define LISTS_H
 /**
  * struct list_s - singly linked list
- * @str: string 
+ * @str: string
  * @len: string length
  * @next: next node pointer
  * Description: ALX singly linked list node structure
