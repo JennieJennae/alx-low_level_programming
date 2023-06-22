@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints its own opcodes
+ * main - prints its own codes
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: arguments array
  *
  * Return: Always 0 (Success)
  */
