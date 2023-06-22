@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *_memcpy - a function that copies memory area
- *@dest: memory where is stored
- *@src: memory where is copied
- *@n: number of bytes
+ *_memcpy - a function which copies memory space
+ *@dest: stored memory
+ *@src: copied memory
+ *@n: bytes number
  *
- *Return: copied memory with n byted changed
+ *Return: copied memory
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {

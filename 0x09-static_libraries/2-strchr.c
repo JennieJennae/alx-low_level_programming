@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr - Entry point
+ * _strchr - point of entry
  * @s: input
  * @c: input
- * Return: Always 0 (Success)
+ * Return: 0
  */
 char *_strchr(char *s, char c)
 {

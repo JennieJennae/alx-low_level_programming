@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _memset - fill a block of memory with a specific value
- * @s: starting address of memory to be filled
- * @b: the desired value
- * @n: number of bytes to be changed
+ * _memset -block of memory with specific value
+ * @s: starting address of memory
+ * @b: desired value
+ * @n: bytes number
  *
- * Return: changed array with new value for n bytes
+ * Return: changed array
  */
 char *_memset(char *s, char b, unsigned int n)
 {
