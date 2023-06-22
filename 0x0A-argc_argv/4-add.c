@@ -3,10 +3,10 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - check - string there are digit
- * @str: array str
+ * check_num - check if there are digits in the string
+ * @str: array string
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int check_num(char *str)
 {
@@ -25,7 +25,7 @@ int check_num(char *str)
 		return (1);
 }
 /**
- * main - Print the name of the program
+ * main - Print program name
  * @argc: Count arguments
  * @argv: Arguments
  *
