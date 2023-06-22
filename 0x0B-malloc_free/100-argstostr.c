@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - main entry
- * @ac: int input
+ * argstostr - main point of entry
+ * @ac: integer input
  * @av: double pointer array
  * Return: 0
  */
