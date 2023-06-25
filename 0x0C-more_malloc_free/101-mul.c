@@ -3,7 +3,7 @@
 #include <stdio.h>
 #define ERR_MSG "Error"
 /**
- * is_digit - checks if a string contains a non-digit char
+ * is_digit - checks string
  * @s: string to be evaluated
  *
  * Return: 0 if a non-digit is found, 1 otherwise
@@ -21,8 +21,8 @@ int is_digit(char *s)
 	return (1);
 }
 /**
- * _strlen - returns the length of a string
- * @s: string to evaluate
+ * _strlen - returns the string length
+ * @s: string
  *
  * Return: the length of the string
  */
