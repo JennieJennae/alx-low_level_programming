@@ -2,11 +2,13 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+
 /**
- * list_len - returns the number of elements
- * @h: list_t lists pointer
- * Return: number of nodes in h
+ * list_len - returns the num of elements
+ * @h: lists pointer
+ * Return: num of nodes
  */
+
 size_t list_len(const list_t *h)
 {
 	size_t n = 0;
