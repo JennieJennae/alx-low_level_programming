@@ -1,8 +1,11 @@
 #include <stdio.h>
+
 void first(void) __attribute__ ((constructor));
+
 /**
  * first - prints one sentence before the next function is executed
  */
+
 void first(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
