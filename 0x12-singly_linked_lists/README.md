@@ -1,6 +1,9 @@
 ALX project
+
 0x12 singly linked lists
+
 Tasks
+
 0. Print lists
 Write a function that prints all the elements of a list_t list.
 1. List length
