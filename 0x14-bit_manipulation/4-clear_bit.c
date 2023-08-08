@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * clear_bit - Sets the value of a bit
  * @n: A bit pointer
